@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.5, 8.5" name="QuanLyXe">
+  <DataContextMoniker Name="/QuanLyXeDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a0fd73ba-694f-483f-96b8-b069f41076fd" absoluteBounds="1.375, 2.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/QuanLyXeDataContext/HoaDon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0fdee676-f82b-4f15-a764-fb80244dcf3e" absoluteBounds="1.3899999999999997, 3.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d809505d-3460-4fea-97bb-bbfd3736f04c" absoluteBounds="1.5, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/QuanLyXeDataContext/ChiTietHD" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8fd364e1-67e6-428c-aa09-96cd2177216f" absoluteBounds="1.5149999999999997, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.4375 : 2.875); (2.4375 : 2.27089680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyXeDataContext/HoaDon/HoaDon_ChiTietHD" />
+      <nodes>
+        <classShapeMoniker Id="a0fd73ba-694f-483f-96b8-b069f41076fd" />
+        <classShapeMoniker Id="d809505d-3460-4fea-97bb-bbfd3736f04c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="dccddda0-21bb-446a-93bf-39fd49044465" absoluteBounds="5.25, 6, 2, 1.9631982421875">
+      <DataClassMoniker Name="/QuanLyXeDataContext/KhachHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3b88c9b4-e9ed-4170-98c7-6b018b07086f" absoluteBounds="5.2650000000000006, 6.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.21875 : 6); (7.21875 : 4.50405110677083); (3.375 : 4.50405110677083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyXeDataContext/KhachHang/KhachHang_HoaDon" />
+      <nodes>
+        <classShapeMoniker Id="dccddda0-21bb-446a-93bf-39fd49044465" />
+        <classShapeMoniker Id="a0fd73ba-694f-483f-96b8-b069f41076fd" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b7556a5b-069a-4e2b-8208-b877ffca8e6e" absoluteBounds="9.25, 2.125, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/QuanLyXeDataContext/LoaiXe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e131928c-81d7-434b-bcc5-d7aad10ba8b9" absoluteBounds="9.265, 2.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b98ad322-c847-4dc6-aa0f-39c652539389" absoluteBounds="9.25, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/QuanLyXeDataContext/MauXe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3378a803-783d-401a-af06-738afa7a32b1" absoluteBounds="9.265, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d04c0826-5554-4873-bde6-79207df45fe0" absoluteBounds="9.25, 6.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QuanLyXeDataContext/NCC" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4f9f4f7c-278b-458a-9f74-c13850099f6d" absoluteBounds="9.265, 6.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="15667486-80e3-4a81-81f2-93bf7d94aafd" absoluteBounds="1.625, 5.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/QuanLyXeDataContext/NhanVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="75061ab5-42c5-44bf-8c96-207d8a3ed56d" absoluteBounds="1.6400000000000006, 6.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 5.75); (2.5 : 4.8381982421875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyXeDataContext/NhanVien/NhanVien_HoaDon" />
+      <nodes>
+        <classShapeMoniker Id="15667486-80e3-4a81-81f2-93bf7d94aafd" />
+        <classShapeMoniker Id="a0fd73ba-694f-483f-96b8-b069f41076fd" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="88b79baa-7fd1-4cdc-8796-5c4b46f729d0" absoluteBounds="5.125, 1.375, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/QuanLyXeDataContext/Xe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="defc7a83-6710-4e26-8636-d493329f063f" absoluteBounds="5.1400000000000006, 1.835, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.125 : 1.82294840494792); (3.5 : 1.82294840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyXeDataContext/Xe/Xe_ChiTietHD" />
+      <nodes>
+        <classShapeMoniker Id="88b79baa-7fd1-4cdc-8796-5c4b46f729d0" />
+        <classShapeMoniker Id="d809505d-3460-4fea-97bb-bbfd3736f04c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.25 : 2.72199625651042); (7.125 : 2.72199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyXeDataContext/LoaiXe/LoaiXe_Xe" />
+      <nodes>
+        <classShapeMoniker Id="b7556a5b-069a-4e2b-8208-b877ffca8e6e" />
+        <classShapeMoniker Id="88b79baa-7fd1-4cdc-8796-5c4b46f729d0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.25 : 0.9374995); (6.125 : 0.9374995); (6.125 : 1.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyXeDataContext/MauXe/MauXe_Xe" />
+      <nodes>
+        <classShapeMoniker Id="b98ad322-c847-4dc6-aa0f-39c652539389" />
+        <classShapeMoniker Id="88b79baa-7fd1-4cdc-8796-5c4b46f729d0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.25 : 6.125); (8.875 : 5.75); (8.875 : 3.44595211393229); (7.125 : 3.44595211393229)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLyXeDataContext/NCC/NCC_Xe" />
+      <nodes>
+        <classShapeMoniker Id="d04c0826-5554-4873-bde6-79207df45fe0" />
+        <classShapeMoniker Id="88b79baa-7fd1-4cdc-8796-5c4b46f729d0" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
